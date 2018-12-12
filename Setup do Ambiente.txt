@@ -1,0 +1,12 @@
+Setup do ambiente
+ - instalar node
+  - instalar anglular cli install -g @angular/cli
+  - vscode
+     - plugin vscode-icons
+	 - plugin auto import
+	 - plugin angular vxx snippets
+  - instalar typescript npm install -g typescript  , testar a versao com tsc -v 
+  -criar tarefa no vscode para compilar(taks)
+	
+	
+	 
