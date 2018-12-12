@@ -6,7 +6,10 @@ Setup do ambiente
 	 - plugin auto import
 	 - plugin angular vxx snippets
   - instalar typescript npm install -g typescript  , testar a versao com tsc -v 
-  -criar tarefa no vscode para compilar(taks)
+  - criar tarefa no vscode para compilar(taks)
+  - ocultar arquivos para nao poluir Prefence, settings
+     **/*.js.map
+     **/*.js{ "when": "$(basename).ts" }
 	
 	
 	 
