@@ -5,8 +5,12 @@ export class Person{
         this.name = name;
     }
 
-    public showAge(age : number):void{
+    public showAge(age : number): void {
         console.log(`${this.name} has ${age} years old`);
+    }
+
+    public toString():string {
+        return `Class Person, name ${this.name}`;
     }
 
 }
