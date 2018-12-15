@@ -12,5 +12,14 @@ Setup do ambiente
      **/*.js{ "when": "$(basename).ts" }
 	
    para criar componente ng g component nome_compoente
+
+   ngModel, validaçãoes de formulario
+   valid, invalida
+   pristine - nao digitou
+   dirty - digitou
+   touched 
+
+   tipos de validação de formulario
+   required, pattern - regex, minlength, maxlength
 	
 	 
