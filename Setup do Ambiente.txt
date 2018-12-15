@@ -11,5 +11,6 @@ Setup do ambiente
      **/*.js.map
      **/*.js{ "when": "$(basename).ts" }
 	
+   para criar componente ng g component nome_compoente
 	
 	 
