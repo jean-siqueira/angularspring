@@ -21,5 +21,13 @@ Setup do ambiente
 
    tipos de validação de formulario
    required, pattern - regex, minlength, maxlength
+
+   ---------backend-----------------
+   mongo db, fazer o download o zip
+   criar diretorio data
+   comando para inicializar:
+   ./mongod --dbpath C:/Desenvolvimento/mongodb-4.0.4/data
+
+
 	
 	 
