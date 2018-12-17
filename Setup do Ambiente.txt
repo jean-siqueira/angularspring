@@ -26,8 +26,11 @@ Setup do ambiente
    mongo db, fazer o download o zip
    criar diretorio data
    comando para inicializar:
-   ./mongod --dbpath C:/Desenvolvimento/mongodb-4.0.4/data
+   na pasta bin ./mongod --dbpath C:/Desenvolvimento/mongodb-4.0.4/data
 
+   para conectar
+   na pasta bin ./mongo
+   show databases
 
 	
 	 
