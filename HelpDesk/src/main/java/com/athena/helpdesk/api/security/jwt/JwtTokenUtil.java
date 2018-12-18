@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.security.core.userdetails.UserDetails;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -87,11 +88,11 @@ public class JwtTokenUtil implements Serializable {
         return refreshedToken;
     }
     
-    /*public Boolean validadeToken(String token, UserDetails userDetails) {
+    public Boolean validadeToken(String token, UserDetails userDetails) {
         JwtUser user = (JwtUser)userDetails;
         final String userName = getUsernameFromToken(token);
-        return userName.equals(user.getUserName()) && !isTokenExpired(token);
-    }*/
+        return userName.equals(user.getUsername()) && !isTokenExpired(token);
+    }
     
 
 }
