@@ -14,8 +14,6 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
-import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import com.athena.helpdesk.api.security.jwt.JwtAuthenticationEntryPoint;
@@ -24,8 +22,6 @@ import com.athena.helpdesk.api.security.jwt.JwtAuthenticationTokenFilter;
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-@EnableAuthorizationServer
-@EnableResourceServer
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 
 	@Autowired

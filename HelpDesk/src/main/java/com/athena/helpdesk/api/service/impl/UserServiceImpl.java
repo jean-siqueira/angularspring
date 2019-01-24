@@ -28,17 +28,17 @@ public class UserServiceImpl implements UserService{
 
 	@Override
 	public User findById(String id) {
-		return this.userRepository.findById(id).get();
+		return this.userRepository.findOne(id);
 	}
 
 	@Override
 	public void delete(String id) {
-		this.userRepository.deleteById(id);
+		this.userRepository.delete(id);
 	}
 
 	@Override
 	public Page<User> findAll(int page, int count) {
-		Pageable pages = PageRequest.of(page, count);
+		Pageable pages = new PageRequest(page, count);
 		return this.userRepository.findAll(pages);
 	}
 
