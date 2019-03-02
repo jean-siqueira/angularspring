@@ -18,15 +18,15 @@ public class Response<T> {
 	}
 
 	public List<String> getErrors() {
-		return errors;
-	}
-
-	public void setErrors(List<String> errors) {
 		
 		if(this.errors == null) {
 			this.errors = new ArrayList<>();
 		}
 		
+		return errors;
+	}
+
+	public void setErrors(List<String> errors) {
 		this.errors = errors;
 	}
 	

@@ -82,7 +82,7 @@ public class TicketServiceImpl implements TicketService {
 
 	@Override
 	public Iterable<Ticket> findAll() {
-		return this.findAll();
+		return ticketRepository.findAll();
 	}
 
 	@Override

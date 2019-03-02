@@ -3,7 +3,7 @@ package com.athena.helpdesk.api.enums;
 public enum PriorityEnum {
 
 	Higth,
-	Nomal,
+	Normal,
 	Low;
 	
 }
